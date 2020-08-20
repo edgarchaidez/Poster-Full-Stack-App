@@ -1,6 +1,6 @@
 # Poster
 
-This is an application I developed to learn more about full-stack development. I used React on the front-end, Node/Express for the backend stateless server, and MongoDB as a database to store user data. It's a web application similar to Twitter allowing users to create and view other users posts. 
+This is an application I developed to learn more about full-stack development. I used React on the front-end, Node/Express for the backend stateless server, and MongoDB as a database to store user data. It's a web application similar to Twitter allowing users to create and view other users posts. This repository stores the front-end code.
 
 ## Website
 
