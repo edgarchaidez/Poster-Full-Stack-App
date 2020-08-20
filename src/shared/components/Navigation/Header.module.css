@@ -1,0 +1,23 @@
+.Header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgb(56, 68, 77);
+    padding: 0 1rem;
+    z-index: 5;
+    background: rgb(21, 32, 43);
+  }
+  
+  main {
+    margin-top: 4rem;
+  }
+  
+  @media (min-width: 768px) {
+    .Header {
+      justify-content: space-between;
+    }
+  }

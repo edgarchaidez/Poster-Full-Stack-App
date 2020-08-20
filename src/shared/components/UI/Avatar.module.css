@@ -1,0 +1,15 @@
+.Avatar {
+  height: 100%;
+  width: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.Avatar img {
+  display: block;
+  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+}

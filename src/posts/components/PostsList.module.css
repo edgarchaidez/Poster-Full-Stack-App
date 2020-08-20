@@ -1,0 +1,36 @@
+/*.posts-list {
+    list-style: none;
+    margin: 5rem auto;
+    padding: 0;
+    width: 90%;
+    max-width: 40rem;
+  }*/
+  
+.posts-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 0.5px solid rgb(56, 68, 77);
+    border-top: none;
+    border-bottom: none;
+    min-width: 30rem;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+    .posts-list {
+      width: 100%;
+      min-width: inherit;
+    }
+}
